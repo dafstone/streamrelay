@@ -5,12 +5,16 @@
 *.so
 *.dylib
 /streamrelay
+/streamrelay-*
 
 # Test binary, build with `go test -c`
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Build directory
+/build
 
 # Configuration files
 rtmp-servers.txt
